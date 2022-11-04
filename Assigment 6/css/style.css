@@ -1,0 +1,62 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#content h2{
+    text-align: center;
+}
+
+ul.accordion{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+button.accordion-control{
+    background-color:lavender;
+    padding: 16px;
+    display: block;
+    width: 100%
+}
+.accordion-panel {
+    display: none;
+    padding: 50px;
+    font-size: 24px;
+}
+
+ul.tab-list {
+    list-style: none;
+    text-align: center;
+  }
+  ul.tab-list li {
+    display: inline-block;
+    margin-left: 16px;
+    padding: 8px;
+    border: 1px solid brown;
+  }
+  ul.tab-list li.active {
+    background-color: pink;
+  }
+  ul.tab-list li.active a {
+    color: white;
+  }
+  .tab-panel {
+    display: none;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid brown;
+    text-align: center;
+    margin-left: 19em;
+  }
+  .tab-panel.active {
+    display: block;
+  }
+  .tab-control{
+     text-decoration: none;
+     color: chocolate;
+  }
+  footer h2 {
+      border: 1px solid brown;
+      background-color:lavender;
+  }
