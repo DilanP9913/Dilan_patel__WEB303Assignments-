@@ -2,38 +2,44 @@
     Assignment 05
 */
 
-$(document).ready(function () {
+$(document).ready(function ()
+  {
    
- class ContentItem{
+ class ContentItem
+ {
     Id;
     Name;
     Descri;
     Category;
 
-constructor(Id, Name, Descri, Category){
+   constructor(Id, Name, Descri, Category)
+     {
         this.Id = uniqueId;
         this.Name = name;
         this.Descri = description;
         this.Category = category;
         }
 
-updateContentItem(uniqueId, name, description, category){
-        if(this.Id == uniqueId && name && description && category){
+    updateContentItem(uniqueId, name, description, category)
+     {
+        if(this.Id == uniqueId && name && description && category)
+        {
             this.Id = uniqueId;
             this.Name = name;
-         this.Descri = description;
+            this.Descri = description;
             this.Category = category;
             }
 
         }
-        toString(){
+        toString()
+        {
         return $('#content-item-list').append(`<div class="content-item-wrapper">
         <div id="content-item-${this.Id}">
         <h4 class="name">${this.Name}</h4>
         <p class="description">${this.Descri}</p>
         <div class="category">${this.Category}</div>
         </div>
-         </div>`);
+        </div>`);
             }
     }
     
@@ -69,16 +75,17 @@ updateContentItem(uniqueId, name, description, category){
         "Category": "Employee"
     }
     ];
-    $.each(content, function(key, val){
-      $('#content-item-list').append(`<div class="content-item-wrapper">
-     <div id="content-item-${this.Id}">
-     <h4 class="name">${this.Name}</h4>
-     <p class="description">${this.Descri}</p>
-     <div class="category">${this.Category}</div>
+    $.each(content, function(key, val)
+    {
+    $('#content-item-list').append(`<div class="content-item-wrapper">
+    <div id="content-item-${this.Id}">
+    <h4 class="name">${this.Name}</h4>
+    <p class="description">${this.Descri}</p>
+    <div class="category">${this.Category}</div>
     </div>
     </div>`);
     });
-   $('h2').empty().text("About Stores");
+    $('h2').empty().text("About Stores");
 
 });
 
