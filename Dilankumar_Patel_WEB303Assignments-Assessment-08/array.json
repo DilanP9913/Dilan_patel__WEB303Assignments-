@@ -1,0 +1,72 @@
+[
+    {
+        "charactername": "Ironman",
+        "speciality": "powered armor",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "11"
+    }, 
+    {
+        "charactername": "captain america",
+        "speciality": "Patriotic Power",
+        "gender": "Male",
+        "character_creatorr": "robert jr",
+        "number_of_movie_appearence": "10"
+    },
+    {
+        "charactername": "thor",
+        "speciality": "god of thunder",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "9"
+    },
+    {
+        "charactername": "black widow",
+        "speciality": "skilled assassin",
+        "gender": "Female",
+        "character_creator": "robert jr",
+        "number_of_movie_appearence": "9"
+    },
+    {
+        "charactername": "vision",
+        "speciality": "Mind Stone",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "5"
+    },
+   {
+        "charactername": "hulk",
+        "speciality": "superhuman strength",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "8"
+    },
+    {
+        "charactername": "hawkeye",
+        "speciality": "bow and arrow",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "6"
+    },
+    {
+        "charactername": "spiderman",
+        "speciality": "spider-sense",
+        "gender": "Male",
+        "character_creator": "robert jr",
+        "number_of_movie_appearencee": "6"
+    },
+    {
+        "charactername": "black panther",
+        "speciality": "vibranium armor",
+        "gender": "Male",
+        "character_creator": "robert jr",
+        "number_of_movie_appearence": "4"
+    },
+    {
+        "charactername": "Falcon",
+        "speciality": "wing suit",
+        "gender": "Male",
+        "character_creator": "robert jr",
+        "number_of_movie_appearence": "3"
+    }
+]
