@@ -1,0 +1,47 @@
+<html>
+    
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <main>
+        <h1>Dilan's Marvel characters</h1>
+        <div class="search">
+            <input type="text" id="search" placeholder="Search">
+        </div>
+        
+        <table id="Table">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Charactername</th>
+                    <th onclick="sortTable(1)">speciality</th>
+                    <th onclick="sortTable(2)">Gender</th>
+                    <th onclick="sortTable(3)">Character_creator</th>
+                    <th onclick="sortTable(4)">Number_of_movie_appearence</th>
+                    <th onclick="sortTable(5)">date_of_created</th>
+                </tr>
+            </thead>
+                <tbody id="tb">
+            </tbody>
+        </table>
+
+        <div class="buttons" id="filter">
+            <button type="button" class="button" id="A-M">Filter A-M</button>
+            <button type="button" class="button" id="N-Z">Filter N-Z</button>
+        </div>
+
+    </main>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
+
+<!--
+        Name: - Dilankumar Patel
+        Student ID: - 0775508
+        Date: - 24/11/2022
+-->

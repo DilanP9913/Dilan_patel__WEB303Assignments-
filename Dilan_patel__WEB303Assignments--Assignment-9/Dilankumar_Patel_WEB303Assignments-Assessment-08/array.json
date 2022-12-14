@@ -1,0 +1,83 @@
+[
+    {
+        "charactername": "Ironman",
+        "speciality": "powered armor",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "11",
+        "date_of_created": "1994-08-02"
+    }, 
+    {
+        "charactername": "captain america",
+        "speciality": "Patriotic Power",
+        "gender": "Male",
+        "character_creatorr": "robert jr",
+        "number_of_movie_appearence": "10",
+        "date_of_created": "2000-10-27"
+    },
+    {
+        "charactername": "thor",
+        "speciality": "god of thunder",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "9",
+        "date_of_created": "2000-01-12"
+    },
+    {
+        "charactername": "black widow",
+        "speciality": "skilled assassin",
+        "gender": "Female",
+        "character_creator": "robert jr",
+        "number_of_movie_appearence": "9",
+        "date_of_created": "1999-01-31"
+    },
+    {
+        "charactername": "vision",
+        "speciality": "Mind Stone",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "5",
+        "date_of_created": "2005-11-23"
+    },
+   {
+        "charactername": "hulk",
+        "speciality": "superhuman strength",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "8",
+        "date_of_created": "2014-03-02"
+    },
+    {
+        "charactername": "hawkeye",
+        "speciality": "bow and arrow",
+        "gender": "Male",
+        "character_creator": "stanlee",
+        "number_of_movie_appearence": "6",
+        "date_of_created": "1997-08-21"
+    },
+    {
+        "charactername": "spiderman",
+        "speciality": "spider-sense",
+        "gender": "Male",
+        "character_creator": "robert jr",
+        "number_of_movie_appearencee": "6",
+        "date_of_created": "2000-11-13"
+    },
+    {
+        "charactername": "black panther",
+        "speciality": "vibranium armor",
+        "gender": "Male",
+        "character_creator": "robert jr",
+        "number_of_movie_appearence": "4",
+        "date_of_created": "2012-10-02"
+    },
+    {
+        "charactername": "Falcon",
+        "speciality": "wing suit",
+        "gender": "Male",
+        "character_creator": "robert jr",
+        "number_of_movie_appearence": "3",
+        "date_of_created": "2004-10-10"
+
+    }
+]
